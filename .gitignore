@@ -1,0 +1,8 @@
+node_modules/
+bridge-token
+plugin/token.js
+.env
+.env.*
+*.log
+coverage/
+.DS_Store

@@ -1,0 +1,4 @@
+bridge-token
+plugin/token.js
+test/
+coverage/

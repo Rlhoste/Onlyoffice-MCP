@@ -1,0 +1,22 @@
+{
+  "name": "onlyoffice-presentation-bridge",
+  "version": "0.1.0",
+  "description": "Local authenticated MCP bridge for editing presentations open in ONLYOFFICE Desktop Editors",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check plugin/code.js && node --check scripts/install.mjs",
+    "test": "node --test",
+    "install:plugin": "node scripts/install.mjs",
+    "rotate-token": "node scripts/install.mjs --rotate-token"
+  },
+  "keywords": ["mcp", "onlyoffice", "presentation", "opencode"],
+  "author": "Rémi LHOSTE",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "ws": "^8.21.0",
+    "zod": "^4.6.7"
+  }
+}

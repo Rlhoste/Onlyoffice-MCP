@@ -1,0 +1,30 @@
+{
+  "name": "OpenCode Presentation Bridge",
+  "nameLocale": {
+    "en": "OpenCode Presentation Bridge",
+    "fr": "Pont OpenCode pour les présentations"
+  },
+  "guid": "asc.{7D8D56A4-C2B6-4A3D-9E25-9C67D88F5E31}",
+  "version": "0.1.0",
+  "minVersion": "8.0",
+  "description": "Local authenticated bridge for inspecting the presentation open in ONLYOFFICE Desktop Editors",
+  "baseUrl": "",
+  "onlyofficeScheme": true,
+  "variations": [
+    {
+      "description": "Background bridge for OpenCode",
+      "url": "index.html",
+      "icons": [],
+      "isViewer": false,
+      "EditorsSupport": ["slide"],
+      "type": "system",
+      "isVisual": false,
+      "isModal": false,
+      "isInsideMode": false,
+      "isSystem": true,
+      "isDisplayedInViewer": false,
+      "initOnSelectionChanged": false,
+      "initDataType": "none"
+    }
+  ]
+}
